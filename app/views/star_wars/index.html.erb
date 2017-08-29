@@ -1,0 +1,6 @@
+<h1>Leaderboard</h1>
+<ol>
+<% @starwars.each do |starwar|%>
+  <li><%= starwar.name%>: <%= starwar.wins%></li>
+<% end %>
+</ol>
